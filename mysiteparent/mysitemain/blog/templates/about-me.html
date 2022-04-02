@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+
+<section id="content" class="s-content"> <!-- -->
+
+    <div class="about-me-intro">
+            <div class="row">
+                <div class="column lg-12 centered">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column lg-12 centered">
+                    <img class="about-me-image" src="{% static 'images/about-me-personal.jpg' %}" alt="Me">
+                </div>
+            </div>
+            <div class="row">
+                <div class="column lg-6 tab-12"> 
+                    <h3 class="u-add-bottom">My Personal Story</h3>
+                    <p class="drop-cap">
+                        I have spent the past eight years living with mental illness. I’ve been diagnosed with treatment-resistant depression (non-responsive to pharmacology), OCD, and generalized anxiety disorder, among other things. The treatment-resistant nature of the depression forced me to seek out more intense interventions such as Electroconvulsive Therapy (ECT) and Transcranial Magnetic Stimulation (TMS). Since I have had access to the care I need, I have been in complete remission for about two and a half years. I understand that I am incredibly privileged to receive the care I have, so my mission is to combine my lived experience with professional education in social work and business administration to serve others who are still experiencing mental illness.
+                    </p>
+                </div>
+                <div class="column lg-6 tab-12">
+                    <h3 class="u-add-bottom">My Professional Mission</h3>
+                    <p class='drop-cap'>
+                        I will finish my B.B.A in Management from the University of Georgia in May '22. Then, I'll immediately begin my Master’s of Business Administration (MBA) and my Master's of Social Work (MSW) at Kennesaw State University, with a projected graduation date of August '24. I believe that the combination of education in organizational management and clinical social work will uniquely synergize to help me facilitate systemic change in mental healthcare. I envision myself leveraging these competencies to build a non-profit organization focused on providing data-driven, financially sustainable, and socially equitable mental healthcare.
+                    </p>
+                </div>
+            </div> 
+        </div>
+        <div class="about-me-content">
+            <div class="row">
+                <div class="column lg-12">
+                    <h1 class="about-me-heading">Going Deeper</h1>
+                </div>
+            </div>
+            <div class="row">
+                <p>My <a href='' class="about-me-link">personal statement</a> serves to paint a fuller picture of who I am personally and professionally, as well as how I would address certain key issues. In its full length it is about 4000 words, however I have broken it up into short, distinct sections.</p>
+                <div class="column lg-6 tab-12">
+                    <ul class="about-me-ul">
+                        <li><a href="" class="about-me-link">My Story</a></li>
+                        <li><a href="" class="about-me-link">My Experience Serving the Homeless Population in Athens, GA</a></li>
+                        <li><a href="" class="about-me-link">My Professional Goals</a></li>
+                        <li><a href="" class="about-me-link">The Importance of Social Equity</a></li>
+                        <li><a href="" class="about-me-link">Eliminating Healthcare Disparities</a></li>
+                        <li><a href="" class="about-me-link">The Complexities of Adolscent Mental Healthcare</a></li>
+                    <li><a href="" class="about-me-link">Personal Qualities, Values, and Skills</a></li>
+                        <li><a href="" class="about-me-link">Making the Transition from a Volunteer to a Professional</a></li>
+                    </ul>
+                </div>
+                <div class="column lg-6 tab-12 about-me-panel">
+                    <!-- <a class="btn --small a-margin-top" href="about-me.html">Explore Sections of The Statement</a> -->
+                    <a class="btn btn--primary a-margin-top" href="about-me.html">Download As PDF</a>
+                </div>
+            <div>   
+            </div>
+        </div>
+
+</section>
+
+{%endblock%}
